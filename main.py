@@ -108,10 +108,10 @@ def check_spanning_tree(bit_string, edges, num_vertices, best_weight, indicator)
 #Main code
 file_path = '/Users/lokeshwardevanand/Downloads/test05.uwg'  # Path to the .uwg file
 n, m, edges = read_uwg_file(file_path)
-best_weight=float('inf')
+best_weight=float('inf') # the b value which is the best weight
 indicator = int(0)
-best_egdes = []
-best_egdes_number = []
+best_egdes = [] # edge tuple values that give the best weight
+best_egdes_number = [] # egdes that give the best weight
 
 # Print the output for verification
 print("Number of vertices:", n)
